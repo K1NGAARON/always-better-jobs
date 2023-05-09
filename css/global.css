@@ -69,6 +69,64 @@
     animation: underline_filter 500ms ease-in-out;
 }
 
+.form-wrapper {
+    display: flex;
+    width: 80%;
+    padding: 30px;
+    border-radius: var(--borderRadius);
+    background-color: var(--white);
+    box-shadow: var(--boxShadow);
+}
+
+.form-wrapper form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+
+.form-wrapper input,
+.form-wrapper option,
+.form-wrapper select {
+    color: var(--black);
+    flex: 1;
+    width: 100%;
+    padding: 16px;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    border: none;
+    border-bottom: 1px solid var(--primary);
+    border-radius: 0;
+    height: 60px;
+    outline: none;
+    font-size: 18px;
+    transition: border-bottom 200ms ease;
+}
+
+.form-wrapper input::placeholder {
+    color: var(--black);
+    opacity: 0.6;
+}
+
+.form-wrapper input:focus {
+    transition: border-bottom 200ms ease;
+    border-bottom: 2px solid var(--primary);
+}
+
+.form-wrapper .btn {
+    color: var(--white);
+    background-color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+    transition: border-bottom 200ms ease;
+    transition: var(--transition);
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.form-wrapper .btn:hover {
+    transform: scale(1.02);
+}
+
 
 
 

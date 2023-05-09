@@ -1,0 +1,12 @@
+.job-description .row {
+    width: 60%;
+}
+
+.breadcrumb {
+    display: flex;
+    gap: 5px;
+}
+
+.breadcrumb .fa {
+    font-size: 14px;
+}
