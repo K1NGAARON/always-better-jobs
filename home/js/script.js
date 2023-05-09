@@ -4,21 +4,21 @@ const job = [
         body: "Dit is de body van job uno",
         img: "https://start.alwaysbetter.be/ambassador-traject/img/ab-image.jpg",
         tag: "marketing",
-        url: "",
+        link: "/job-openings/personal-coach/",
     },
     {
         title: "Content Creator met strategisch inzicht",
         body: "Dit is de body van job uno",
         img: "https://start.alwaysbetter.be/ambassador-traject/img/ab-image.jpg",
         tag: "coach",
-        url: "",
+        link: "/job-openings/personal-coach/",
     },
     {
         title: "Content Creator met strategisch inzicht",
         body: "Dit is de body van job uno",
         img: "https://start.alwaysbetter.be/ambassador-traject/img/ab-image.jpg",
         tag: "admin",
-        url: "",
+        link: "/job-openings/personal-coach/",
     },
 ];
 
@@ -60,7 +60,7 @@ function createCards(e) {
                         <h5>
                             ${job.title}
                         </h5>
-                        <a href="/posts/${job.link}" class="btn ghost no-border">
+                        <a href="${job.link}" class="btn ghost no-border">
                             Lees meer <i class="fa-solid fa-chevron-right"></i>
                         </a>
                     </div>
