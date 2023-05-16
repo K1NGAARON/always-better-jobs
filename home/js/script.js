@@ -1,24 +1,24 @@
 const job = [
     {
-        title: "Content Creator met strategisch inzicht",
-        body: "Dit is de body van job uno",
-        img: "https://start.alwaysbetter.be/ambassador-traject/img/ab-image.jpg",
-        tag: "marketing",
-        link: "/job-openings/personal-coach/",
-    },
-    {
-        title: "Content Creator met strategisch inzicht",
-        body: "Dit is de body van job uno",
+        title: "Personal coach",
+        body: "Tekstje voor personal coach job",
         img: "https://start.alwaysbetter.be/ambassador-traject/img/ab-image.jpg",
         tag: "coach",
         link: "/job-openings/personal-coach/",
     },
     {
-        title: "Content Creator met strategisch inzicht",
-        body: "Dit is de body van job uno",
+        title: "Growth hacker",
+        body: "Tekstje voor growth hacker job",
         img: "https://start.alwaysbetter.be/ambassador-traject/img/ab-image.jpg",
-        tag: "admin",
-        link: "/job-openings/personal-coach/",
+        tag: "marketing",
+        link: "/job-openings/growth-hacker/",
+    },
+    {
+        title: "Marketing- en communicatieverantwoordelijke",
+        body: "Tekstje voor marketing communicatie job",
+        img: "https://start.alwaysbetter.be/ambassador-traject/img/ab-image.jpg",
+        tag: "marketing",
+        link: "/job-openings/marketing-communicatie-verantwoordelijke/",
     },
 ];
 

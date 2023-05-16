@@ -1,5 +1,6 @@
 .job-description .row {
     width: 60%;
+    padding-top: 40px;
 }
 
 .breadcrumb {
@@ -17,6 +18,11 @@
     flex-direction: column;
     gap: 10px;
     margin-top: 20px;
+}
+
+.section ul li ul,
+.section ol li ul {
+    padding-left: 30px;
 }
 
 .thank-you.section {
