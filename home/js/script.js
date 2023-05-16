@@ -1,6 +1,6 @@
 const job = [
     {
-        title: "Personal coach",
+        title: "Personal coaching",
         body: "Tekstje voor personal coach job",
         img: "/job-openings/img/personal-coach.jpg",
         tag: "coach",
