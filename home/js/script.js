@@ -1,9 +1,9 @@
 const job = [
     {
         title: "Personal coaching",
-        body: "Tekstje voor personal coach job",
+        body: "Tekstje voor personal coaching job",
         img: "/job-openings/img/personal-coach.jpg",
-        tag: "coach",
+        tag: "coaching",
         link: "/job-openings/personal-coach/",
     },
     {
