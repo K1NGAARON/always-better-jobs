@@ -155,7 +155,7 @@
         </div>
         <div class="col">
             <div class="form-wrapper">
-                <form action="https://formspree.io/f/xgebpyzb" method="post" class="validate contact-form" target="_blank" novalidate>
+                <form action="https://formspree.io/f/xdovjpkj" method="post" class="validate contact-form" target="_blank" novalidate>
                     <div class="form-row">
                         <input type="text" value="" name="firstname" placeholder="Voornaam*" required>
                         <input type="text" value="" name="lastname" placeholder="Achternaam*" required>
@@ -166,23 +166,26 @@
                         <input type="text" value="" name="phone" placeholder="Telefoon*" required>
                     </div>
 
-                    <div class="form-row locatie">
-                        <select name="distance" class="distance">
-                            <option class="opacity-6" value="placeholder" disabled selected>
-                                Woon/werk afstand naar de locatie?*
-                            </option>
-                            <option value="0-4">0-4 km</option>
-                            <option value="4-10">4-10 km</option>
-                            <option value="10">10+ km</option>
-                        </select>
-                        <i class="fa-solid fa-circle-info"></i>
-                        <p>
-                            De studio bevindt zich te <a href="https://goo.gl/maps/9wfgyR9xpi6uNuMp6" target="_blank>">Stapelplein 70/3</a>.
-                        </p>
+                    <div class="form-row">
+                        <input type="url" value="" name="linkedin-profile" placeholder="Jouw LinkedIn URL*" required>
+                        <input type="date" name="birthday" id="birthday" required>
                     </div>
 
-                    <input type="hidden" name="tags" value="ab-jobs" />
-                    <input type="submit" value="Start jouw gratis traject ➔" name="subscribe" class="btn">
+                    <div class="form-row locatie">
+                        <select name="lead-source">
+                            <option class="opacity-6" value="placeholder" disabled="" selected="">
+                                Hoe kwam je bij Always Better terecht?*
+                            </option>
+                            <option value="referral">Aangeraden door een kennis</option>
+                            <option value="social-media">Social media</option>
+                            <option value="advertentie">Advertentie</option>
+                            <option value="website">Website</option>
+                        </select>
+                    </div>
+
+                    <input type="hidden" name="vacature" value="personal-coach">
+                    <input type="hidden" name="tags" value="abjobs" />
+                    <input type="submit" value="Solliciteer nu ➔" name="subscribe" class="btn">
                     <p class="small center">
                         *Jouw gegevens worden nooit gedeeld met derden.
                     </p>
