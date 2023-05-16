@@ -8,6 +8,10 @@
     gap: 5px;
 }
 
+.breadcrumb a {
+    font-weight: 700;
+}
+
 .breadcrumb .fa {
     font-size: 14px;
 }

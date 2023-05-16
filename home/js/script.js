@@ -2,21 +2,21 @@ const job = [
     {
         title: "Personal coach",
         body: "Tekstje voor personal coach job",
-        img: "https://start.alwaysbetter.be/ambassador-traject/img/ab-image.jpg",
+        img: "/job-openings/img/personal-coach.jpg",
         tag: "coach",
         link: "/job-openings/personal-coach/",
     },
     {
         title: "Growth hacker",
         body: "Tekstje voor growth hacker job",
-        img: "https://start.alwaysbetter.be/ambassador-traject/img/ab-image.jpg",
+        img: "/job-openings/img/growth-hacker.jpg",
         tag: "marketing",
         link: "/job-openings/growth-hacker/",
     },
     {
-        title: "Marketing- en communicatieverantwoordelijke",
+        title: "Communicatieverantwoordelijke",
         body: "Tekstje voor marketing communicatie job",
-        img: "https://start.alwaysbetter.be/ambassador-traject/img/ab-image.jpg",
+        img: "/job-openings/img/marketing-communicatie.jpg",
         tag: "marketing",
         link: "/job-openings/marketing-communicatie-verantwoordelijke/",
     },
@@ -45,7 +45,6 @@ function createCards(e) {
     if (target) {
         const cards = job.map(job => {
             const tagWithSpaces = job.tag.replace(/-/g, ' ');
-
 
             return `
                 <div class="card ${job.date} ${job.category} ${job.tag}">
