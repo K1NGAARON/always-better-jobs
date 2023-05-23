@@ -20,6 +20,13 @@ const job = [
         tag: "marketing",
         link: "/job-openings/marketing-communicatie-verantwoordelijke/",
     },
+    {
+        title: "Operationeel manager",
+        body: "Tekstje voor operational manager",
+        img: "/job-openings/img/personal-coach.jpg",
+        tag: "admin",
+        link: "/job-openings/operational-manager/",
+    }
 ];
 
 function filterContent(e) {
@@ -47,7 +54,7 @@ function createCards(e) {
             const tagWithSpaces = job.tag.replace(/-/g, ' ');
 
             return `
-                <div class="card ${job.date} ${job.category} ${job.tag}">
+                <div class="card ${job.tag}">
                     <div class="card-image">
                         <img src="${job.img}" alt="${job.title}">
                         <div class="overlay"></div>
