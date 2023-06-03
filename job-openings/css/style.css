@@ -32,3 +32,7 @@
 .thank-you.section {
     height: 90vh;
 }
+
+.section h3 {
+    color: var(--primary);
+}
